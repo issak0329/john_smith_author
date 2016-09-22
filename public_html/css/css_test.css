@@ -4,19 +4,100 @@ body {
 }
 
 header {
+	font-family: Georgia, Palatino, serif;
 	background-color: #284D00;
 	padding: 0px;
-	margin-top: 0px;
 	margin: 5px;
 	height: 90px;
 	line-height: 100px;
 	max-width: 1100px;
+	border-radius: 5px;
 }
 
 h1 {
 	padding: 10px;
 	color: #FFEDC4;
 	font-size: 60px;
+}
+
+h3, h2 {
+	font-family: Georgia, Palatino, serif;
+	padding: 5px;
+	font-size: 20px;
+	color: #FFEDC4;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	padding: 5px;
+	border-color: #523620;
+	margin: 5px;
+	background-color: #523620;
+}
+
+p {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin: 5px;
+	padding: 5px;
+}
+
+article ul {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+.left_align {
+	float: left;
+	padding: 0px 10px 10px 5px;
+}
+
+.after {
+	clear: left;
+}
+
+#bio {
+	padding: 5px;
+	margin: 10px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 5px;
+}
+
+table, th, td {
+	border: 3px solid #523620;
+	padding: 5px;
+}
+
+th {
+	font-family: Georgia, Palatino, serif;
+	background-color: #523620;
+	color: #FFEDC4;
+	font-size: 16px;
+}
+
+td {
+	font-family: arial, sans-serif;
+}
+
+#book_name {
+	width: 20%;
+}
+
+#release_date {
+	width: 20%;
+}
+
+#desctiption {
+}
+
+.center_row {
+	text-align: center;
 }
 
 nav ul {
@@ -26,6 +107,7 @@ nav ul {
 	font-family: arial, sans-serif;
 	overflow: hidden;
 	background-color: #284D00;
+	border-radius: 5px;
 }
 
 nav li {
@@ -42,6 +124,11 @@ nav li a {
 
 nav li a:hover {
 	background-color: #92C060;
+}
+
+form {
+	margin: 5px;
+	padding: 5px;
 }
 
 footer {
