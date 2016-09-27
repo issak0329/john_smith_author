@@ -17,16 +17,20 @@ nav li {
 
 nav li a {
   display: block;
-  color: white;
+  color: #D9CB9E;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav li a:hover{
-	background-color: #111;
+	background-color: #1E1E20;
 }
 
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
 header{
 	background-color: #DC3522;
@@ -34,3 +38,54 @@ header{
 	height: 65px;
 	font-size: 45px;
 }
+
+section{
+  background-color:#FFFFFF;
+  max-width: 800px;
+  border-style: solid;
+  border-width: 2px;
+  padding:20px;
+}
+
+article{
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+  max-width: 800px;
+}
+
+table{
+  background-color:#FFFFFF;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-collapse: collapse;
+  max-width: 800px;
+
+}
+
+table, th, td {
+   border: 2px solid black;
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+  text-align: center;
+
+}
+
+td{
+  padding: 15px;
+}
+
+#tour{
+  background-color: #FFFFFF;
+}
+
+
