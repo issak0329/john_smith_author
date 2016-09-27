@@ -1,55 +1,71 @@
 <!DOCTYPE html>
-<!-- Jackson Knorr -->
 
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title> Login </title>
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+        <style>
+        .below_menu_container {
+            padding-top: 50px;
+        }
+        </style>
     </head>
     
     <body>
-    	<header>
-		<h1> <img src="img/layout/top_icon.png" alt = "JS rune icon">
-    		John Smith</h1>
-    	</header>
-    
-    	<nav>
-            <ul>
-                <li>
-                <a href="index.html">Main Index</a>
-            	</li>
-            	<li>
-            	<a href="about.html">About</a>
-            	</li>
-            	<li>
-                <a href="newspage.html">News Page</a>
-                </li>
-             	<li>
-             	<a href="books.html">Books</a>
-            	</li>
-                <li>
-            	<a href="contact.html">Contact</a>
-            	</li>
-                <li>
-            	<a href="blog.html">Blog</a>
-            	</li>   
-            	<li>
-            	<a href="signup.html">Sign up</a>
-            	</li>
-           </ul>
-      	</nav>
-      	
-      	<form>
-      	Username:<br>
-      	<input type="text" name="username"><br>
-      	Password:<br>
-      	<input type="text" name="password">
-      	
-      	
-      	</form>
-                
-	<footer>
-	    John Smith &copy; 2016
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+
+                <!-- Three line "hamburger" icon for the collapsed navigation -->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <!-- Title on nav bar -->
+              <a class="navbar-brand" href="#">John Smith</a>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="newspage.html">News Page</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li class="active"><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+        <div class="container">
+          <div class="below_menu_container">
+            <h1>Login</h1>
+            <form>
+              Username:<br>
+              <input type="text" name="username"><br>
+              Password:<br>
+              <input type="text" name="password">      
+            </form>
+          </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <footer>
+          John Smith &copy; 2016
         </footer>
         
     </body>
