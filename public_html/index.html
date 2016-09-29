@@ -13,14 +13,15 @@
 
     <!-- Optional theme add-on -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <style>
+      .below_menu_container{
+        padding-top: 50px;
+      }
+    </style>
     </head>
     
-    <body>
-    	<header>
-		<h1> <img src="img/layout/top_icon.png" alt = "JS rune icon">
-    		John Smith</h1>
-    	</header>
-        
+    <body>  
     <!-- Navigation Bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -55,13 +56,20 @@
     <div class="container">
       <!-- This container moves below the menu bar -->
       <div class="below_menu_container">
-	Welcome to the website of author John Smith. Explore the site- you never 
-	know what secrets you'll uncover!
+      <div class="alert alert-info" role="alert">
+      <h1> <img src="img/layout/top_icon.png" alt = "JS rune icon">
+        John Smith</h1>
+        </div>
+	       Welcome to the website of author John Smith. Explore the site- you never 
+	       know what secrets you'll uncover!
     </div>
     </div>
         <footer>
         John Smith &copy; 2016
-        </footer>      
+        </footer> 
+      <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>     
     </body>
     
 </html>
