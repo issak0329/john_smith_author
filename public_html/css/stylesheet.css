@@ -11,18 +11,27 @@
 }
 
 th{
-	background-color: #ff8566;
-}
-
-td{
-	background-color: #ffd6cc;
+	background-color: lightseagreen;
+	color: white;
 }
 
 table, th, td{
 	border: 3px double grey !important;
 }
 
-.alert{
-	background-color: #ff8566;
-	color:#cc2900;
-}
+.mycolor {
+    background-color: lightseagreen;
+  	color: white;
+  	border-style: solid;
+  	border-width: 1px;
+  	padding: 5px;
+ }
+
+ .submit{
+ 	background-color: lightseagreen;
+ }
+
+ .alert-color{
+ 	background-color: #ffad99;
+ 	color:#b32400;
+ }
