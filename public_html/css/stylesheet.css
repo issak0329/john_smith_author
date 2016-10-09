@@ -1,5 +1,13 @@
+body{
+	background-color: #d2efee;
+}
+
 .below_menu_container {
 	padding-top: 40px;
+}
+
+.jumbotron{
+	background-color: #d2efee;
 }
 
 .form-horizontal {
@@ -13,6 +21,10 @@
 th{
 	background-color: lightseagreen;
 	color: white;
+}
+
+td{
+	background-color: white;
 }
 
 table, th, td{
