@@ -51,3 +51,7 @@ table, th, td{
  input[type=text]:focus{
     border: 2px solid #ff471a;
 }
+
+form{
+	max-width: 450px;
+}
