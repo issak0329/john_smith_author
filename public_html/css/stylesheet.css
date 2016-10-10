@@ -47,3 +47,7 @@ table, th, td{
  	background-color: #ffad99;
  	color:#b32400;
  }
+
+ input[type=text]:focus{
+    border: 2px solid #ff471a;
+}
