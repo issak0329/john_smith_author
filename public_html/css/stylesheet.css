@@ -1,7 +1,3 @@
-body{
-	background-color: #d2efee;
-}
-
 .below_menu_container {
 	padding-top: 40px;
 }
@@ -28,6 +24,10 @@ td{
 
 table, th, td{
 	border: 3px double grey !important;
+}
+
+td{
+	background-color: #d2efee;
 }
 
 .mycolor {
