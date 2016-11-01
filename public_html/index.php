@@ -27,12 +27,12 @@
 
               <!-- Title on nav bar -->
               <a class="navbar-left"><img src="img/content/john_smith.png" alt="Main Graphic" width="50" height="50" style="padding:2px"></a>
-              <a class="navbar-brand" href="index.html">John Smith</a>
+              <a class="navbar-brand" href="index.php">John Smith</a>
             </div>
 
             <div id="navbar" class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="newspage.html">News Page</a></li>
                 <li><a href="books.html">Books</a></li>
@@ -100,10 +100,9 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-        <footer class="container">
-        &copy; Copyright 2016, John Smith.
-        </footer>      
+        
+        <?php include '../resources/footer.php'; ?>
+     
     </body>
     
 </html>
