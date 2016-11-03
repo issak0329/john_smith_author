@@ -13,37 +13,8 @@
     
     <body>
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
+  <?php include '../resources/navigation.php'; ?>
 
-                <!-- Three line "hamburger" icon for the collapsed navigation -->
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <!-- Title on nav bar -->
-              <a class="navbar-left"><img src="img/content/john_smith.png" alt="Main Graphic" width="50" height="50" style="padding:2px"></a>
-              <a class="navbar-brand" href="index.html">John Smith</a>
-            </div>
-
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="about.html">About</a></li>
-                <li><a href="newspage.html">News Page</a></li>
-                <li><a href="books.html">Books</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
 
 
         <div class="container">
@@ -69,9 +40,7 @@
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 
-        <footer class="container">
-         &copy; Copyright 2016, John Smith.
-        </footer>
+       <?php include '../resources/footer.php'; ?>
         
     </body>
     
